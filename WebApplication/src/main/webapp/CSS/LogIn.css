@@ -1,0 +1,109 @@
+@charset "UTF-8";
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+        background-color: #F7F7F7;
+
+}
+
+.card-container.card {
+    max-width: 400px;
+    padding: 40px 40px;
+    box-shadow:10px;
+
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+/*
+ * Card component
+ */
+.card {
+    background-color: white;
+
+    height:500px;
+    /* just in case there no content*/
+    padding: 20px 5px 30px;
+    margin: 0 auto 25px;
+    margin-top: 75px;
+    /* shadows and rounded borders */
+    -moz-box-shadow: 0 0 5px 1px #999;
+	-webkit-box-shadow: 0 0 5px 1px #999;
+
+}
+
+/*
+ * Form styles
+ */
+
+.reauth-email {
+    display: block;
+    color: #252323;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password] {
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #37649c;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 90%;
+    display: block;
+    margin-bottom: 10px;
+    text-decaration:none;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.btn.btn-signin {
+    background-color: #4d90fe; 
+    width:70px;    
+    
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: #5c3566104145162;
+}
